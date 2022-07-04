@@ -1,3 +1,4 @@
+using MediatR;
 using MediatR_Demo.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("Standard")));
+
+builder.Services.AddMediatR(typeof(Program));
 
 var app = builder.Build();
 
