@@ -35,10 +35,10 @@ I have made this tutorial to show how easy it is to get started with implementin
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [C#](https://nextjs.org/)
-* [ASP.NET Core](https://reactjs.org/)
-* [EF Core](https://vuejs.org/)
-* [MediatR](https://angular.io/)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
+* [EF Core](https://docs.microsoft.com/en-us/ef/core/)
+* [MediatR](https://github.com/jbogard/MediatR)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
